@@ -11,4 +11,5 @@ export class User {
   password?: string;
   gender?: 0;
   image?: string;
+  tel?: string;
 }

@@ -8,7 +8,9 @@
   <input name="passwordlogin" type="password" placeholder="Mot de passe" class="form-control" required=""
          #passwordlogin="ngModel" [(ngModel)]="password_login">
 
-  <button name="buttonlogin" type="submit" (click)="loginvynd()">ENVOYER</button>
+  <button name="buttonlogin" type="submit" (click)="loginvynd()">Connexion</button>
+
+  <a routerLink="../register">Sign up</a>
 
   <h3 *ngIf="user">{{user.firstName}}</h3>
 </form>

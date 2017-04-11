@@ -1,3 +1,5 @@
-<header>new header</header>
+<header>new header
+  <button type="submit" (click)="logout()" *ngIf="isUserLoggedIn()" >Deconnexion</button>
+</header>
 <router-outlet></router-outlet>
 <footer>footer</footer>

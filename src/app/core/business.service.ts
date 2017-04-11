@@ -52,4 +52,9 @@ export class BusinessService {
         return error._body;
       });
   }
+
+  createAccount(user: User):Promise<boolean>{
+    return Promise.resolve(false);
+    //http://vynd-account-api-dev.azurewebsites.net/user/register
+  }
 }

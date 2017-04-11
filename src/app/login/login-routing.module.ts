@@ -12,4 +12,4 @@ const routes: Routes = [{path: 'login', component: LoginComponent}];
   exports: [RouterModule],
   providers: []
 })
-export class LoginRoutingModule { }
+export class LoginRoutingModule {}
